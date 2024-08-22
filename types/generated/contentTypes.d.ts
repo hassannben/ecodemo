@@ -377,7 +377,6 @@ export interface ApiPostPost extends Schema.CollectionType {
     title: Attribute.String & Attribute.Required;
     image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
       Attribute.Required;
-    price: Attribute.Float & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
